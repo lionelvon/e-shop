@@ -1,0 +1,9 @@
+{{extends "layouts/application.jet"}}
+{{block title() }}main{{end}}
+{{block body() }}
+  <main>
+    <p>Hello {{ title }}</p>
+    main page!!!
+    <p>{{ . }}</p>
+  </main>
+{{end}}
