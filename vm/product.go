@@ -1,8 +1,15 @@
 package vm
 
+import "../conf"
+
 type TxProduct struct {
-	Id          int    `json:"id"`
-	ProductName string `json:"name"`
-	Description string `json:"description"`
-	Price       int    `json:"price"`
+	Id          int
+	ProductName string
+	ImagePath   string
+	Description string
+	Price       int
+}
+
+func (product *TxProduct) ImageUrl(imageUrl string) {
+	product.ImagePath = conf.ITEM_IMAGE_PATH + imageUrl
 }

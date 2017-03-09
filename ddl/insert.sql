@@ -1,0 +1,2 @@
+INSERT INTO eshop.product (product_name, image_url, description, price) VALUES ('A', '2.jpg', 'desc A', 1800);
+INSERT INTO eshop.product (product_name, image_url, description, price) VALUES ('B', '3.jpg', 'desc B', 2500);

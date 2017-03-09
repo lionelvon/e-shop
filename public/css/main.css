@@ -1,0 +1,28 @@
+body {
+  color: #333;
+  margin: 0;
+  background-color: gray; }
+
+#top-bar {
+  background-color: #fff;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+  border-bottom: 2px solid #eee; }
+
+#wrapper {
+  background-color: #fff;
+  margin: 0 auto; }
+
+ul.user-menu {
+  list-style: none; }
+  ul.user-menu li {
+    display: inline-block;
+    border-right: 1px solid #eee;
+    padding: 5px 12px; }
+    ul.user-menu li:last-child {
+      border-right: 0; }
+
+div {
+  color: #333; }

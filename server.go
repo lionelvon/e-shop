@@ -3,7 +3,7 @@ package main
 import (
 	"./db"
 	"./handles"
-	"./jetengine"
+	"./render"
 	"github.com/CloudyKit/jet"
 	"github.com/labstack/echo"
 )
@@ -13,7 +13,7 @@ func main() {
 	e := echo.New()
 	e.Static("/public", "public")
 
-	e.Renderer = &jetengine.Template{
+	e.Renderer = &render.Template{
 		View: jet.NewHTMLSet("./views").SetDevelopmentMode(true),
 	}
 

@@ -3,7 +3,7 @@
 {{block body() }}
  <ol>
    {{ range value:= products }}
-    <li>{{value.ProductName}}</li>
+    <li><img src="{{value.ImagePath}}" /></li>
    {{end}}
    </ol>
 {{end}}
